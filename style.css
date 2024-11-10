@@ -1,0 +1,145 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    padding: 10px 15px;
+    background-color: #313840;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.button-container button:hover {
+    background-color: #3b3e3c;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #313840;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3b3e3c;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+tr,th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.form-container {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: 400px;
+    box-shadow: 2px 20px 10px 10px #927878;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#f6f6f6;
+}
+
+.buttonn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttonn-container button {
+    padding: 10px 15px;
+    background-color: #313840;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonn-container button:hover {
+    background-color: #3b3e3c;
+}
+.deletebutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deletebutton button {
+    padding: 10px 15px;
+    background-color: #313840;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.deletebutton button:hover {
+    background-color: #3b3e3c;
+}
+
+.deletebutton a {
+    text-decoration: none;
+    color: white;
+}
+.button-containerr {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.button-containerr button {
+    padding: 10px 15px;
+    background-color: #313840;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.button-containerr button:hover {
+    background-color: #3b3e3c;
+}
+
+.button-containerr a {
+    text-decoration: none;
+    color: white;
+}

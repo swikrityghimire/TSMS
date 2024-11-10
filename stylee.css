@@ -1,0 +1,98 @@
+.table-container{
+    align:center;
+    width:100%;
+ }
+   .container {
+       
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 0 !important;
+
+   }
+
+   .icon-container {
+       display: flex;
+       justify-content: flex-end;
+       margin-bottom: 20px;
+       width:100%;
+   }
+
+   button {
+       padding: 10px 15px;
+       background-color: #313840;
+       color: #fff;
+       border: none;
+       border-radius: 5px;
+       margin-top: 15px;
+
+   }
+
+   button:hover {
+       background-color: #3b3e3c;
+   }
+
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-bottom: 20px;
+   }
+
+   table, th, td {
+       border: 2px solid black;
+   }
+
+   th, td {
+       padding: 8px;
+       text-align: center;
+   }
+
+   #popupForm {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #344555;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    background: #a7b4b3;
+    border-radius: 25px;
+    box-shadow: 19px 20px 10px 10px #18090854;
+    background: #8c9e9e;
+    text-align: center;
+    width: 500px;
+    height:500px;
+ }
+
+   #overlay {
+       display: none;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background:#a7b4b3;
+   }
+   #popupForm .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:#000;
+}
+   form input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+    background: #d4d7d8;
+    border-radius: 5px;
+   }
